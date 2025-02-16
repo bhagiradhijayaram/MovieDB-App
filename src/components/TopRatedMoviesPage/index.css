@@ -1,0 +1,11 @@
+.TopRatedMoviesPage {
+  padding-top: 80px;
+}
+.error-message {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}

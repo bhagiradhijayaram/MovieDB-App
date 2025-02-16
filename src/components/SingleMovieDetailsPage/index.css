@@ -1,0 +1,27 @@
+.movie-page {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 80px 10px 0px 10px;
+}
+
+.cast-grid {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(150px, 1fr)
+  ); /* Default: Responsive */
+  gap: 10px;
+  margin-top: 20px;
+  padding: 10px;
+  list-style: none; /* Removes bullet points */
+}
+
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

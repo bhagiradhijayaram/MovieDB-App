@@ -1,0 +1,41 @@
+.PopularMoviesPage {
+  padding-top: 60px;
+}
+.home_cover_page {
+  background-image: url('https://genotipia.com/wp-content/uploads/2020/04/Netflix-Background-prueba-1.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cover_page_heading {
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+}
+@media screen and (min-width: 1281px) {
+  .cover_page_heading {
+    width: 1000px;
+  }
+}
+
+.movies_grid_section {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(250px, 1fr)
+  ); /* Auto adjusts */
+  gap: 10px;
+  justify-content: center;
+  padding: 0px 10px 0px 10px;
+  width: 100%;
+}
+.movies_categories {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+}

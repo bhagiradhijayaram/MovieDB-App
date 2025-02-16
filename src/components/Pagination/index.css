@@ -1,0 +1,15 @@
+.pagination_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.control-btn {
+  background-color: #024caa;
+  color: #fff;
+  width: 50px;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}

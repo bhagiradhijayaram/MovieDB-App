@@ -1,0 +1,30 @@
+.movie-poster {
+  width: 100%;
+  height: 600px;
+  max-height: 80vh; /* Prevents it from being too big */
+  border-radius: 10px;
+}
+
+.movie-details-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.movie-overview {
+  width: 100%;
+}
+@media screen and (min-width: 820px) {
+  .movie-details-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .movie-poster {
+    width: 550px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .movie-overview {
+    width: 100%;
+    max-width: 740px;
+  }
+}
