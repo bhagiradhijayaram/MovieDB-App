@@ -32,7 +32,7 @@ const TopRatedMoviesPage = () => {
           formattedData: data.results.map(movie => ({
             id: movie.id,
             title: movie.title,
-            posterPath: `https://image.tmdb.org/t/p/original${movie.poster_path}`,
+            posterPath: `https://image.tmdb.org/t/p/w500${movie.poster_path}`, // Ensure correct key
             voteAverage: movie.vote_average,
           })),
         }
