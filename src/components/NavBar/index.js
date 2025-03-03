@@ -55,6 +55,7 @@ const NavBar = props => {
           type="search"
           className="search-field"
           placeholder="Search.."
+          role="textbox"
           onChange={onChangeSearchInput}
         />
         <button type="submit" className="search_button" onClick={onSearchClick}>
