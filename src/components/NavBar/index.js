@@ -1,6 +1,5 @@
 import {useState, useContext} from 'react'
 import {Link, withRouter} from 'react-router-dom'
-import {MdOutlineMenu} from 'react-icons/md'
 import SearchContext from '../../context/SearchContext'
 import './index.css'
 
@@ -66,7 +65,7 @@ const NavBar = props => {
       {/* Mobile Menu Button */}
       <div className="nav_menu_container_mobile">
         <button className="menu_button" type="button" onClick={toggleMenu}>
-          <MdOutlineMenu size={35} />
+          <i className="fa-solid fa-bars"></i>
         </button>
       </div>
 
