@@ -32,7 +32,7 @@ const SingleMovieDetailsPage = () => {
         const formattedMovie = {
           id: data.id,
           title: data.title,
-          posterPath: `https://image.tmdb.org/t/p/original${data.poster_path}`,
+            posterPath: `https://image.tmdb.org/t/p/w500${movie.poster_path}`, // Ensure correct key
           voteAverage: data.vote_average,
           overview: data.overview,
           releaseDate: data.release_date,
