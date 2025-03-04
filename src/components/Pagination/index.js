@@ -35,7 +35,7 @@ const Pagination = ({apiCallBack, totalPages}) => {
         Prev
       </button>
       <p className="page-no">
-        Page {pageNo} of {totalPages}
+        {pageNo}
       </p>
       <button
         type="button"
